@@ -1,0 +1,20 @@
+! URxvt dark theme
+URxvt.background:  #1e1e1e
+URxvt.foreground:  #dcdcdc
+URxvt.cursorColor: #ffffff
+URxvt.color0:  #000000
+URxvt.color1:  #ff5555
+URxvt.color2:  #50fa7b
+URxvt.color3:  #f1fa8c
+URxvt.color4:  #bd93f9
+URxvt.color5:  #ff79c6
+URxvt.color6:  #8be9fd
+URxvt.color7:  #bbbbbb
+URxvt.color8:  #555555
+URxvt.color9:  #ff5555
+URxvt.color10: #50fa7b
+URxvt.color11: #f1fa8c
+URxvt.color12: #bd93f9
+URxvt.color13: #ff79c6
+URxvt.color14: #8be9fd
+URxvt.color15: #ffffff

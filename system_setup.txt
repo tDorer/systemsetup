@@ -1,0 +1,31 @@
+# sudo doesn't come preinstalled
+apt install sudo -y
+
+# window manager and directx
+apt install i3 -y
+apt install --no-install-recommends xorg xinit -y
+# copy settings
+sudo mkdir /etc/i3/
+sudo cp ./files/config /etc/i3/
+sudo cp ./files/i3status.conf /etc/
+
+# copy terminal settings
+cp ./files.Xresources ~/
+
+# Audio Manager
+sudo apt-get install pulseaudio -y
+
+# Partition Manager
+sudo apt install gparted -y
+
+# Git
+sudo apt install git-all -y
+
+# Web browser
+apt install firefox-esr -y
+# install vimium
+
+#VSCode
+sudo apt-get install wget gpg && wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg && sudo install -D -o root -g root -m 644 microsoft.gpg /usr/share/keyrings/microsoft.gpg && rm -f microsoft.gpg 
+sudo cp ./files/vscode.sources /etc/apt/sources.list.d/
+sudo apt install apt-transport-https && sudo apt update && sudo apt install code # or code-insiders
