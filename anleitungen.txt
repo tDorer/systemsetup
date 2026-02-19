@@ -13,3 +13,15 @@ udisksctl unmount -b /dev/sdb1      # Unmount sdb1
 # Repositories are listed in /etc/apt/sources.list and /etc/apt/sources.list.d/...
 
 #apt-file search siunitx.sty - with this command I am searching all available software packages for a file named siunitx.sty, this can be helpful for finding latex packages
+
+# Github
+git init                                                # making a new repo (local)
+git add .
+git commit -m 'message'                                 # commit changes to the local repo
+git branch -M branch_name                               # don't really know what the M is for
+git branch new_branch                                   # make new branch
+git branch                                              # list all branches    
+git switch branch_name                                  # switch to another branch
+git remote add origin git@github.com:tDorer/... .git    # connect the repo to a github repo
+git push (--set-upstream) -u origin branch_name         # push the local repo to the branch on the github repo
+git status                                              # show changes
