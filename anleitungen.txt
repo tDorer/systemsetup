@@ -1,0 +1,15 @@
+# List network interfaces: 
+ip a
+# change network configurations:
+sudo nano /etc/systemd/network/ #add config name .network
+# turn on systemd network control
+sudo systemctl enable --now systemd-networkd
+
+#Mount devices
+lsblk                               # List all attached storage devices
+udisksctl mount -b /dev/sdb1        # Mount sdb1
+udisksctl unmount -b /dev/sdb1      # Unmount sdb1
+
+# Repositories are listed in /etc/apt/sources.list and /etc/apt/sources.list.d/...
+
+#apt-file search siunitx.sty - with this command I am searching all available software packages for a file named siunitx.sty, this can be helpful for finding latex packages

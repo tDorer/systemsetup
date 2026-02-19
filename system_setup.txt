@@ -21,11 +21,43 @@ sudo apt install gparted -y
 # Git
 sudo apt install git-all -y
 
-# Web browser
+# Mozilla
 apt install firefox-esr -y
 # install vimium
+sudo apt install thunderbird
 
-#VSCode
+# VSCode
 sudo apt-get install wget gpg && wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg && sudo install -D -o root -g root -m 644 microsoft.gpg /usr/share/keyrings/microsoft.gpg && rm -f microsoft.gpg 
 sudo cp ./files/vscode.sources /etc/apt/sources.list.d/
 sudo apt install apt-transport-https && sudo apt update && sudo apt install code # or code-insiders
+
+# Zathura
+sudo apt install zathura-djvu zathura-pdf-poppler
+
+# Archiving
+sudo apt install install zip gzip tar
+
+# with this I can search packages for files
+sudo apt-get install apt-file
+apt-file update
+
+# LaTeX
+sudo apt install texlive
+sudo apt-get install texlive-lang-german
+sudo apt install texlive-science
+sudo apt install texlive-latex-extra
+sudo apt install texlive-bibtex-extra
+sudo apt install biber
+
+#Disk manager (mounting etc)
+sudo apt-get install udisks2
+
+# Screenshot tool
+sudo apt install flameshot
+
+# Hardware monitor
+sudo apt install lshw
+
+#Slack
+#Download from https://slack.com/downloads/linux
+sudo apt install ./slack-desktop-4.41.105-amd64.deb
