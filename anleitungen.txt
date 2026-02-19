@@ -21,6 +21,7 @@ git commit -m 'message'                                 # commit changes to the 
 git branch -M branch_name                               # don't really know what the M is for
 git branch new_branch                                   # make new branch
 git branch                                              # list all branches    
+git branch -d branch_name                               # delete branch
 git switch branch_name                                  # switch to another branch
 git remote add origin git@github.com:tDorer/... .git    # connect the repo to a github repo
 git push (--set-upstream) -u origin branch_name         # push the local repo to the branch on the github repo
