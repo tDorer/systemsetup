@@ -74,6 +74,12 @@ sudo apt install flameshot -y
 # Hardware monitor
 sudo apt install lshw -y
 
+# zoom
+wget https://zoom.us/client/6.7.5.6891/zoom_amd64.de
+sudo apt install zoom_amd64.de -y
+rm zoom_amd64.de
+
+
 #Slack
 #Download from https://slack.com/downloads/linux
-sudo apt install ./slack-desktop-4.41.105-amd64.deb -y
+#sudo apt install ./slack-desktop-4.41.105-amd64.deb -y
