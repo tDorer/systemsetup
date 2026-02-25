@@ -48,8 +48,11 @@ sudo cp ./files/vscode.sources /etc/apt/sources.list.d/
 sudo apt install apt-transport-https && sudo apt update && sudo apt install code # or code-insiders
 
 # Zathura
-sudo apt install zathura-djvu zathura-pdf-poppler
+sudo apt install zathura-djvu zathura-pdf-poppler -y
 
+
+# feh
+sudo apt install feh -y
 # Archiving
 sudo apt install zip gzip tar -y
 

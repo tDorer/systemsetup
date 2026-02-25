@@ -26,3 +26,7 @@ git switch branch_name                                  # switch to another bran
 git remote add origin git@github.com:tDorer/... .git    # connect the repo to a github repo
 git push (--set-upstream) -u origin branch_name         # push the local repo to the branch on the github repo
 git status                                              # show changes
+git pull origin branch_name
+
+# repos are listed in 
+/etc/apt/sources.list.d/
