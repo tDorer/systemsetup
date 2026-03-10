@@ -37,9 +37,12 @@ sudo apt -V install nvidia-driver-cuda nvidia-kernel-open-dkms
 sudo apt-get -y install cuda-toolkit-13-1
 sudo echo "PATH=$PATH:/usr/local/cuda-13.1/bin" >> /etc/profile
 
+# ssh server
+sudo apt install openssh-server -y
+
 # Mozilla
 apt install firefox-esr -y
-# install vimium
+## install vimium
 sudo apt install thunderbird -y
 
 # VSCode
@@ -86,3 +89,7 @@ rm zoom_amd64.de
 #Slack
 #Download from https://slack.com/downloads/linux
 #sudo apt install ./slack-desktop-4.41.105-amd64.deb -y
+
+# pymol
+
+# anaconda
