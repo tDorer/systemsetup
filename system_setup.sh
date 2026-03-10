@@ -12,6 +12,9 @@ sudo cp ./files/i3status.conf /etc/
 # copy terminal settings
 cp ./files.Xresources ~/
 
+# fortran compiler
+sudo apt install gfortran -y
+
 # Audio Manager
 sudo apt-get install pulseaudio -y
 
